@@ -1,0 +1,57 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "85C77155-9436-4399-88A0-83E1AD760437"
+    },
+    "name": "Animation",
+    "enableOnAwake": false,
+    "priority": 0,
+    "loop": false,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "1E2EE4C0-88C8-4407-ADA6-0A8364CF9A22"
+                },
+                "name": "Object Variable Animation",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "target": {
+                        "id": {
+                            "uuid": "33C643F3-6DD2-4BC3-AFBF-AC0E3292DF59"
+                        },
+                        "type": 3
+                    }
+                },
+                "animation": {
+                    "uuid": "6B01C2FD-E181-4050-AD67-2C37A01F8C1B"
+                },
+                "AnimationType": "objVariable",
+                "is_imported": false,
+                "isEnabled": true
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "KeyTrigger",
+            "id": {
+                "uuid": "2F957B25-F116-4540-A804-D9D6316E8E34"
+            },
+            "ownerScriptId": {
+                "uuid": "85C77155-9436-4399-88A0-83E1AD760437"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "triggerName": "",
+            "keyCode": 32,
+            "state": 2
+        }
+    ]
+}

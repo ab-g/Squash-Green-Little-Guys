@@ -1,0 +1,77 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "17199EB0-67A7-4F48-9A41-11390347FA1E"
+    },
+    "name": "Animation",
+    "enableOnAwake": false,
+    "priority": 0,
+    "loop": false,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "82F1CE8C-DE8D-4BDE-9653-4D4CF4ABC1ED"
+                },
+                "name": "Object Variable Animation",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "target": {
+                        "id": {
+                            "uuid": "33C643F3-6DD2-4BC3-AFBF-AC0E3292DF59"
+                        },
+                        "type": 3
+                    }
+                },
+                "animation": {
+                    "uuid": "6C5D4CBE-2DD0-4A5C-9C9A-0A9AF81F1217"
+                },
+                "AnimationType": "objVariable",
+                "is_imported": false,
+                "isEnabled": true
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "CollisionTrigger",
+            "id": {
+                "uuid": "85664447-3568-4EC7-B7B1-3E0189F6319E"
+            },
+            "ownerScriptId": {
+                "uuid": "17199EB0-67A7-4F48-9A41-11390347FA1E"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "triggerName": "",
+            "eventType": "in",
+            "targetBindingLink": {
+                "@class": "BindingLink",
+                "target": {
+                    "id": {
+                        "uuid": "33C643F3-6DD2-4BC3-AFBF-AC0E3292DF59"
+                    },
+                    "optionalId": {
+                        "uuid": "EC387FC3-257F-4811-A56F-2CC8D3A6551B"
+                    },
+                    "type": 3
+                }
+            },
+            "zoneBindingLink": {
+                "@class": "BindingLink",
+                "target": {
+                    "id": {
+                        "uuid": "F83139F9-4FF9-4A47-B007-6BEE41BA98C9"
+                    },
+                    "type": 0
+                }
+            }
+        }
+    ]
+}

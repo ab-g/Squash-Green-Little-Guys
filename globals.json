@@ -1,17 +1,30 @@
 {
-  "@class": "VariousSymbolTable",
-  "id": {
-    "uuid": "441F6629-409E-4504-AEFA-5C43B57AA9E1"
-  },
-  "variables": [
-    {
-      "@class": "VariantVariable",
-      "id": {
-        "uuid": "ABAC160E-0561-46E4-8DE5-5127433B28AC"
-      },
-      "name": "object__C95EA845_BC44_4DCC_857D_B0257C48D480__animation_playing",
-      "type": "float",
-      "value": 0
-    }
-  ]
+    "@class": "VariousSymbolTable",
+    "id": {
+        "uuid": "441F6629-409E-4504-AEFA-5C43B57AA9E1"
+    },
+    "variables": [
+        {
+            "@class": "VariantVariable",
+            "id": {
+                "uuid": "ABAC160E-0561-46E4-8DE5-5127433B28AC"
+            },
+            "name": "object__C95EA845_BC44_4DCC_857D_B0257C48D480__animation_playing",
+            "type": "float",
+            "value": 0.0
+        },
+        {
+            "@class": "VariantVariable",
+            "id": {
+                "uuid": "33C643F3-6DD2-4BC3-AFBF-AC0E3292DF59"
+            },
+            "name": "object__25A267C2_090E_409E_BE65_C9786D8A0DB9__pObject",
+            "type": "object",
+            "value": {
+                "objectId": {
+                    "uuid": "F2194A62-BE93-4192-8E7F-DD661F7577E6"
+                }
+            }
+        }
+    ]
 }

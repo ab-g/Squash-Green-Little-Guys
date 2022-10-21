@@ -1,43 +1,43 @@
 {
     "@class": "Material",
     "id": {
-        "uuid": "4D48F86D-ECE2-462D-8509-5CC70644CDBC"
+        "uuid": "182DF244-A92F-48BA-B673-1273BF74B246"
     },
-    "name": "Gray",
+    "name": "Outside",
     "renderingType": "opaque",
     "blendingType": "normal",
     "detailType": "none",
     "lightningType": "perPixel",
     "colorsType": "no",
-    "shadingType": "pbr",
+    "shadingType": "basicTextured",
     "sideType": "front",
     "depthType": "default",
     "ambient": {
         "values": [
-            0.0,
-            0.0,
-            0.0
+            0.33000001311302187,
+            0.33000001311302187,
+            0.33000001311302187
         ]
     },
     "diffuse": {
         "values": [
-            0.7297400832176209,
-            0.7297400832176209,
-            0.7297400832176209
+            0.06666667014360428,
+            0.06666667014360428,
+            0.06666667014360428
         ]
     },
     "specular": {
         "values": [
-            0.7297400832176209,
-            0.7297400832176209,
-            0.7297400832176209
+            1.0,
+            1.0,
+            1.0
         ]
     },
     "emissive": {
         "values": [
-            0.0,
-            0.0,
-            0.0
+            1.0,
+            1.0,
+            1.0
         ]
     },
     "emissiveIntensity": 0.0,
@@ -49,17 +49,17 @@
         ]
     },
     "opacity": 1.0,
-    "shininess": 6.311791896820068,
-    "metalness": 0.0,
-    "roughness": 1.0,
-    "refraction": 0.5,
+    "shininess": 8.0,
+    "metalness": 0.10000000149011612,
+    "roughness": 0.20000000298023225,
+    "refraction": 1.5,
     "rimIntensity": 1.0,
     "bloomThreshold": 0.800000011920929,
-    "normalScale": 1.0,
+    "normalScale": 0.20000000298023225,
     "heightScale": 1.0,
-    "glowThreshold": 0.0,
+    "glowThreshold": 0.5,
     "diffuseMap": {
-        "uuid": "9F6B5CB4-A449-40E5-BC41-C65F6EB0A7F0"
+        "uuid": "00000000-0000-0000-0000-00000000000A"
     },
     "normalMap": {
         "uuid": "00000000-0000-0000-0000-000000000002"
@@ -141,5 +141,5 @@
     "absorbtion": 0.0,
     "aberrations": 1.0,
     "ambientIntensity": 0.3499999940395355,
-    "mapsStates": 127
+    "mapsStates": 0
 }
